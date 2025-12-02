@@ -343,7 +343,7 @@ Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE)
 
 **SD Negeri Borokulon**
 
-- 🌐 Website: [https://sdnborokulon.sch.id](https://sdnborokulon.sch.id)
+- 🌐 Website: [https://aryawahyu.site](https://aryawahyu.site)
 - 📧 Email: info@sdnborokulon.sch.id
 - 📱 Telepon: (0275) 123456
 - 📍 Alamat: Rw. III, Boro Kulon, Kec. Banyuurip, Kab. Purworejo, Jawa Tengah
