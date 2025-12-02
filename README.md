@@ -1,59 +1,381 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏫 Website SD Negeri Borokulon
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center">
 
-## About Laravel
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Website profil sekolah modern dengan sistem manajemen konten lengkap**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+[Demo](#) • [Dokumentasi](#dokumentasi) • [Lapor Bug](https://github.com/username/repo/issues)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📋 Daftar Isi
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- [Tentang Proyek](#-tentang-proyek)
+- [Fitur Utama](#-fitur-utama)
+- [Teknologi](#-teknologi)
+- [Prasyarat](#-prasyarat)
+- [Instalasi](#-instalasi)
+- [Konfigurasi](#-konfigurasi)
+- [Penggunaan](#-penggunaan)
+- [Struktur Database](#-struktur-database)
+- [Screenshot](#-screenshot)
+- [Kontribusi](#-kontribusi)
+- [Lisensi](#-lisensi)
+- [Kontak](#-kontak)
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🎯 Tentang Proyek
 
-### Premium Partners
+Website SD Negeri Borokulon adalah platform digital modern yang dirancang khusus untuk lembaga pendidikan tingkat sekolah dasar. Website ini menggabungkan tampilan yang menarik dengan sistem manajemen konten yang mudah digunakan, memungkinkan sekolah untuk mengelola informasi, berita, galeri, dan komunikasi dengan orang tua siswa secara efisien.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 🎨 Highlight
 
-## Contributing
+- ✅ **Modern & Responsive** - Desain adaptif untuk semua perangkat
+- ✅ **Admin Panel Lengkap** - Dashboard intuitif dengan dark mode
+- ✅ **SEO Optimized** - Struktur kode yang ramah mesin pencari
+- ✅ **Security First** - Proteksi CSRF, throttling, dan middleware
+- ✅ **Performance** - Lazy loading, optimized assets
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## ✨ Fitur Utama
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 🌐 Frontend (Public)
 
-## Security Vulnerabilities
+| Fitur | Deskripsi |
+|-------|-----------|
+| **Beranda** | Hero section, visi-misi, sambutan kepala sekolah, video profil |
+| **Profil Sekolah** | Identitas lengkap, sejarah, data akreditasi |
+| **Guru & Tendik** | Daftar lengkap dengan foto dan bidang studi |
+| **Sarana Prasarana** | Katalog fasilitas dengan gambar dan deskripsi |
+| **Berita & Artikel** | Sistem publikasi dengan kategori dan pencarian |
+| **Galeri Foto** | Lightbox interaktif dengan filter kategori |
+| **Formulir Kontak** | Honeypot protection & rate limiting |
+| **Pengumuman Berjalan** | Ticker animasi di atas navbar |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🔐 Backend (Admin)
 
-## License
+| Fitur | Deskripsi |
+|-------|-----------|
+| **Dashboard** | KPI cards, aktivitas terbaru, statistik |
+| **Manajemen Berita** | CRUD lengkap dengan draft/publish |
+| **Manajemen Galeri** | Upload & organize dengan preview |
+| **Manajemen Sarpras** | Kelola fasilitas dengan icon & gambar |
+| **Manajemen Staff** | Data guru & tendik dengan foto |
+| **Pesan Masuk** | Inbox untuk formulir kontak |
+| **Pengumuman** | Toggle aktif/nonaktif real-time |
+| **Dark Mode** | Tema gelap dengan local storage |
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🛠 Teknologi
+
+### Backend
+- **Laravel 12.x** - Framework PHP modern
+- **PHP 8.2+** - Server-side scripting
+- **MySQL/MariaDB** - Relational database
+
+### Frontend
+- **Bootstrap 5.3** - CSS framework
+- **Bootstrap Icons** - Icon library
+- **Vanilla JavaScript** - Interaktivitas tanpa jQuery
+
+### Tools & Libraries
+- **Composer** - PHP dependency manager
+- **NPM/Vite** - Asset bundling
+- **Git** - Version control
+
+---
+
+## 📦 Prasyarat
+
+Pastikan sistem Anda memiliki:
+```bash
+✅ PHP >= 8.2
+✅ Composer >= 2.0
+✅ Node.js >= 18.x & NPM
+✅ MySQL >= 5.7 atau MariaDB >= 10.3
+✅ Git
+```
+
+**Extensions PHP yang diperlukan:**
+- OpenSSL
+- PDO
+- Mbstring
+- Tokenizer
+- XML
+- Ctype
+- JSON
+- BCMath
+- Fileinfo
+
+---
+
+## 🚀 Instalasi
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/username/sdn-borokulon.git
+cd sdn-borokulon
+```
+
+### 2️⃣ Install Dependencies
+```bash
+# Install PHP dependencies
+composer install
+
+# Install JavaScript dependencies
+npm install
+```
+
+### 3️⃣ Konfigurasi Environment
+```bash
+# Copy file environment
+cp .env.example .env
+
+# Generate application key
+php artisan key:generate
+```
+
+### 4️⃣ Setup Database
+
+Edit file `.env` dengan kredensial database Anda:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=sdn_borokulon
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Jalankan migrasi:
+```bash
+php artisan migrate --seed
+```
+
+### 5️⃣ Storage Link
+```bash
+php artisan storage:link
+```
+
+### 6️⃣ Build Assets
+```bash
+# Development
+npm run dev
+
+# Production
+npm run build
+```
+
+### 7️⃣ Jalankan Server
+```bash
+php artisan serve
+```
+
+Website dapat diakses di: **http://localhost:8000**
+
+---
+
+## ⚙️ Konfigurasi
+
+### Admin Default
+
+Setelah instalasi, gunakan kredensial berikut untuk login admin:
+```
+Email: example@example.com
+Password: examplepassword
+```
+
+**⚠️ PENTING:** Segera ubah password default setelah login pertama!
+
+### Kategori Berita
+
+Edit file `config/news.php` untuk menambah/mengubah kategori:
+```php
+return [
+    'categories' => [
+        'Pengumuman',
+        'Kegiatan',
+        'Prestasi',
+        'Artikel',
+    ],
+];
+```
+
+### Kategori Galeri
+
+Edit file `config/gallery.php`:
+```php
+return [
+    'categories' => [
+        'Kegiatan',
+        'Prestasi',
+        'Fasilitas',
+        'Umum',
+    ],
+];
+```
+
+---
+
+## 📖 Penggunaan
+
+### Membuat Berita Baru
+
+1. Login ke admin panel di `/admin`
+2. Klik menu **Berita** → **Tambah**
+3. Isi form:
+   - Judul (required)
+   - Kategori
+   - Penulis
+   - Ringkasan
+   - Konten (required)
+   - Gambar sampul
+   - Tanggal terbit (kosongkan untuk draft)
+4. Klik **Simpan**
+
+### Upload Foto Galeri
+
+1. Menu **Galeri** → **Tambah**
+2. Upload gambar (max 3MB)
+3. Tambahkan judul dan kategori
+4. Klik **Simpan**
+
+### Mengelola Pengumuman
+
+1. Menu **Pengumuman**
+2. Tambah pengumuman baru di form atas
+3. Toggle aktif/nonaktif dengan tombol switch
+4. Hapus pengumuman yang tidak diperlukan
+
+---
+
+## 🗄 Struktur Database
+
+### Tabel Utama
+
+| Tabel | Deskripsi |
+|-------|-----------|
+| `users` | Data admin/pengguna |
+| `posts` | Berita & artikel |
+| `gallery_items` | Foto galeri |
+| `staff` | Data guru & tendik |
+| `sarpras` | Sarana prasarana |
+| `announcements` | Pengumuman berjalan |
+| `contact_messages` | Pesan dari form kontak |
+
+### ERD (Entity Relationship Diagram)
+```
+users (1) ─────< posts
+           ─────< gallery_items
+           ─────< staff
+           ─────< sarpras
+           ─────< announcements
+
+contact_messages (independent)
+```
+
+---
+
+## 📸 Screenshot
+
+### Frontend
+
+#### Homepage
+![Homepage](docs/screenshots/home.png)
+*Homepage dengan hero section dan running text*
+
+#### Profil Sekolah
+![Profil](docs/screenshots/profil.png)
+*Halaman profil sekolah dengan informasi lengkap*
+
+#### Berita & Artikel
+![Berita](docs/screenshots/berita.png)
+*Halaman berita dengan filter kategori*
+
+### Backend
+
+#### Dashboard Admin
+![Dashboard](docs/screenshots/admin-dashboard.png)
+*Dashboard admin dengan KPI cards dan statistik*
+
+#### Manajemen Berita
+![Manajemen Berita](docs/screenshots/admin-posts.png)
+*Interface CRUD berita dengan preview*
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi sangat diterima! Ikuti langkah berikut:
+
+1. Fork repository ini
+2. Buat branch fitur (`git checkout -b fitur-amazing`)
+3. Commit perubahan (`git commit -m 'Tambah fitur amazing'`)
+4. Push ke branch (`git push origin fitur-amazing`)
+5. Buat Pull Request
+
+### Coding Standards
+
+- Gunakan **PSR-12** untuk PHP
+- Indent 4 spasi
+- Blade template indent 2 spasi
+- Komentar dalam Bahasa Inggris untuk code, Bahasa Indonesia untuk dokumentasi
+
+---
+
+## 📝 Lisensi
+
+Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail.
+
+---
+
+## 📞 Kontak
+
+**SD Negeri Borokulon**
+
+- 🌐 Website: [https://sdnborokulon.sch.id](https://sdnborokulon.sch.id)
+- 📧 Email: info@sdnborokulon.sch.id
+- 📱 Telepon: (0275) 123456
+- 📍 Alamat: Rw. III, Boro Kulon, Kec. Banyuurip, Kab. Purworejo, Jawa Tengah
+
+**Developer**
+
+- GitHub: [@username](https://github.com/username)
+- Email: developer@example.com
+
+---
+
+## 🙏 Acknowledgments
+
+- [Laravel](https://laravel.com) - Framework yang luar biasa
+- [Bootstrap](https://getbootstrap.com) - CSS framework
+- [Bootstrap Icons](https://icons.getbootstrap.com) - Icon library
+- Komunitas open source Indonesia
+
+---
+
+## 📊 Status Proyek
+
+![GitHub last commit](https://img.shields.io/github/last-commit/username/repo?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/username/repo?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/username/repo?style=flat-square)
+
+---
+
+<div align="center">
+
+**⭐ Jangan lupa beri star jika proyek ini membantu! ⭐**
+
+Made with ❤️ by [Developer Name]
+
+</div>
