@@ -1,15 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-<style>
-  .brand-logo{
-    height: 36px;              /* ubah ke 40px jika ingin sedikit lebih besar */
-    width: auto;               /* jaga rasio */
-    object-fit: contain;       /* hindari distorsi */
-    display: block;
-  }
-
-</style>
+    <style>
+        .brand-logo {
+            height: 36px;
+            /* ubah ke 40px jika ingin sedikit lebih besar */
+            width: auto;
+            /* jaga rasio */
+            object-fit: contain;
+            /* hindari distorsi */
+            display: block;
+        }
+    </style>
 
     {{-- HERO --}}
     <header class="hero">
@@ -136,15 +138,13 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="ratio ratio-16x9 shadow-sm rounded-4 overflow-hidden">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/Uj1Nu_PCJ9Y?start=5&rel=0&modestbranding=1"
-    title="Video Profil SD Negeri Borokulon"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
+                        <iframe src="https://www.youtube-nocookie.com/embed/Uj1Nu_PCJ9Y?start=5&rel=0&modestbranding=1"
+                            title="Video Profil SD Negeri Borokulon" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
 
                 </div>
                 <div class="col-lg-4">
@@ -163,7 +163,7 @@
             </div>
         </div>
     </section>
-    
+
 
     {{-- Berita Terbaru (hanya 3 item, gambar besar & konsisten) --}}
     <section class="container py-5">
