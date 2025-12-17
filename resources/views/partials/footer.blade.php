@@ -21,11 +21,11 @@
         <ul class="list-unstyled small mb-3">
           <li class="mb-1">
             <i class="bi bi-telephone me-2 text-primary"></i>
-            <a class="link-fx" href="tel:+6280000000000">+62 800-0000-000</a>
+            <a class="link-fx" href="tel:+62275325618">(0275) 325618</a>
           </li>
           <li class="mb-1">
             <i class="bi bi-envelope me-2 text-primary"></i>
-            <a class="link-fx" href="mailto:info@sdborokulon.sch.id">info@sdborokulon.sch.id</a>
+            <a class="link-fx" href="mailto:2borokulon@gmail.com">2borokulon@gmail.com</a>
           </li>
           <li class="mb-1">
             <i class="bi bi-geo-alt me-2 text-primary"></i>
@@ -60,7 +60,7 @@
           <li class="d-flex justify-content-between border-bottom border-secondary-subtle py-1">
             <span>Senin–Jumat</span><span>07.00–13.00</span>
           </li>
-          
+
           <li class="d-flex justify-content-between py-1">
             <span>Sabtu/Minggu/Libur</span><span>Tutup</span>
           </li>

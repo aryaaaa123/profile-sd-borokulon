@@ -97,6 +97,68 @@
         </div>
     </section>
 
+    <section class="container py-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <h2 class="section-title">Tujuan Sekolah</h2>
+                <div class="card border-0 shadow-sm mb-3">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary mb-2 "><i class="bi bi-stars me-2"></i>Tujuan Jangka Pendek</h5>
+                        @php
+                            $tjp = [
+                                'Meningkatkan keimanan dan ibadah sesuai agama yang diyakininya.',
+                                'Unggul dalam prestasi akademik dan budi pekerti.',
+                                'Tinggi dalam perolehan nilai US.',
+                                'Tinggi dalam kompetisi, baik dalam akademik maupun non akademik.',
+                                'Meningkatkan kegiatan mengajar optimal.',
+                                'Melaksanakan kegiatan belajar mengajar yang aktif, kreatif, inovatif, dan efektif.',
+                                'Mengembangkan potensi anak sesuai dengan bakat dan kemampuannya.',
+                                'Meningkatkan kerindangan, keindahan dan kebersihan lingkungan.'
+                            ];
+                        @endphp
+                        <ul class="list-unstyled m-0 d-grid gap-2">
+                            @foreach ($tjp as $item)
+                                <li class="p-3 bg-white shadow-sm d-flex">
+                                    <i class="bi bi-check2-circle text-primary me-3 mt-1"></i>
+                                    <span class="fw-medium">{{ $item }}</span>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                @php
+                    $tjj = [
+                        'Tertib displin di sekolah, rumah dan masyarakat.',
+                        'Mampu menerapkan IPTEK dalam kehidupan sehari-hari.',
+                        'Mewujudkan prestasi akademik maupun non akademik.',
+                        'Menumbuhkan semangat kinerja seluruh warga sekolah.',
+                    ];
+                @endphp
+
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary mb-3">
+                            <i class="bi bi-bullseye me-2"></i>Tujuan Jangka Panjang
+                        </h5>
+
+                        {{-- daftar misi ke bawah --}}
+                        <ul class="list-unstyled m-0 d-grid gap-2">
+                            @foreach ($tjj as $item)
+                                <li class="p-3 bg-white shadow-sm d-flex">
+                                    <i class="bi bi-check2-circle text-primary me-3 mt-1"></i>
+                                    <span class="fw-medium">{{ $item }}</span>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Sambutan Kepala Sekolah --}}
     <section class="container pb-5">
         <div class="card border-0 shadow-sm p-4 p-md-5">

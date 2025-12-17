@@ -94,7 +94,7 @@
                 <i class="bi bi-envelope-open text-primary fs-4"></i>
                 <div>
                   <div class="text-muted small">Email</div>
-                 <div class="fw-semibold " style="font-size: 0.9em">sdnborokulon@gmail.com</div>
+                 <div class="fw-semibold " style="font-size: 0.9em">2borokulon@gmail.com</div>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@
                 <i class="bi bi-telephone text-primary fs-4"></i>
                 <div>
                   <div class="text-muted small">Telepon</div>
-                  <div class="fw-semibold">(0275) 123456</div>
+                  <div class="fw-semibold">(0275) 325618</div>
                 </div>
               </div>
             </div>
