@@ -184,7 +184,7 @@
 
                         Wassalamu'alaikum warahmatullahi wabarakatuh.
                     </p>
-                    <p class="fw-semibold mt-3 mb-0">— Kepala Sekolah, Ibu [Yennie Damayanti Puspasari, SPd.SD,MPd.]</p>
+                    <p class="fw-semibold mt-3 mb-0">Ibu Yennie Damayanti Puspasari, SPd.SD,MPd. <br> <small>Kepala Sekolah SD Negeri Borokulon</small></p>
                 </div>
             </div>
         </div>

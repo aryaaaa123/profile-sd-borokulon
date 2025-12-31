@@ -28,11 +28,12 @@ use App\Http\Controllers\Admin\StaffController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Profil
-Route::prefix('profil')->name('profil.')->group(function () {
+Route::prefix('profil')->name('profile.')->group(function () {
     Route::view('identitas', 'profile.identitas')->name('identitas');
     Route::get('guru-tendik', [ProfileController::class, 'guruTendik'])->name('guru');
     Route::view('sejarah', 'profile.sejarah')->name('sejarah');
     Route::get('sarpras', [ProfileController::class, 'sarpras'])->name('sarpras');
+    Route::get('sarpras/{slug}', [ProfileController::class, 'showSarpras'])->name('sarpras.show');
 });
 
 // Berita
@@ -84,7 +85,7 @@ Route::prefix('admin')->name('admin.')->middleware(['web','admin'])->group(funct
     Route::resource('gallery', AdminGalleryController::class)->except(['show']);
 
     // Sarana Prasarana
-    Route::resource('sarpras', \App\Http\Controllers\Admin\SarprasController::class)
+    Route::resource('sarpras', SarprasController::class)
     ->parameters(['sarpras' => 'sarpras'])
     ->except(['show']);
 

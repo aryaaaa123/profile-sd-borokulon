@@ -71,45 +71,47 @@
                     @endphp
 
                     <div class="col">
-                        <div class="card border-0 shadow-sm h-100 card-zoom">
-                            <div class="thumb-4x3">
-                                <img src="{{ $img }}" alt="{{ $s->title }}" loading="lazy">
-                            </div>
-
-                            <div class="card-body">
-                                {{-- Judul + ikon --}}
-                                <h6 class="fw-bold mb-1">
-                                    @if (!empty($s->icon))
-                                        <i class="bi {{ $s->icon }} text-primary me-1"></i>
-                                    @endif
-                                    {{ $s->title }}
-                                </h6>
-
-                                {{-- Badge kategori / kondisi / jumlah (opsional, tampil kalau ada) --}}
-                                <div class="d-flex flex-wrap gap-2 mb-2">
-                                    @if (!empty($s->category))
-                                        <span class="badge badge-soft rounded-pill">
-                                            <i class="bi bi-grid me-1"></i>{{ $s->category }}
-                                        </span>
-                                    @endif
-                                    @if (!empty($s->condition))
-                                        <span class="badge bg-success-subtle text-success rounded-pill">
-                                            <i class="bi bi-activity me-1"></i>{{ $s->condition }}
-                                        </span>
-                                    @endif
-                                    @if (!empty($s->quantity))
-                                        <span class="badge bg-secondary-subtle text-secondary rounded-pill">
-                                            <i class="bi bi-123 me-1"></i>{{ $s->quantity }}
-                                        </span>
-                                    @endif
+                        <a href="{{ route('profile.sarpras.show', $s->slug) }}" class="text-decoration-none">
+                            <div class="card border-0 shadow-sm h-100 card-zoom">
+                                <div class="thumb-4x3">
+                                    <img src="{{ $img }}" alt="{{ $s->title }}" loading="lazy">
                                 </div>
 
-                                {{-- Deskripsi singkat --}}
-                                @if (!empty($s->description))
-                                    <p class="text-muted mb-0 truncate-2">{{ $s->description }}</p>
-                                @endif
+                                <div class="card-body">
+                                    {{-- Judul + ikon --}}
+                                    <h6 class="fw-bold mb-1 text-dark">
+                                        @if (!empty($s->icon))
+                                            <i class="bi {{ $s->icon }} text-primary me-1"></i>
+                                        @endif
+                                        {{ $s->title }}
+                                    </h6>
+
+                                    {{-- Badge kategori / kondisi / jumlah (opsional, tampil kalau ada) --}}
+                                    <div class="d-flex flex-wrap gap-2 mb-2">
+                                        @if (!empty($s->category))
+                                            <span class="badge badge-soft rounded-pill">
+                                                <i class="bi bi-grid me-1"></i>{{ $s->category }}
+                                            </span>
+                                        @endif
+                                        @if (!empty($s->condition))
+                                            <span class="badge bg-success-subtle text-success rounded-pill">
+                                                <i class="bi bi-activity me-1"></i>{{ $s->condition }}
+                                            </span>
+                                        @endif
+                                        @if (!empty($s->quantity))
+                                            <span class="badge bg-secondary-subtle text-secondary rounded-pill">
+                                                <i class="bi bi-123 me-1"></i>{{ $s->quantity }}
+                                            </span>
+                                        @endif
+                                    </div>
+
+                                    {{-- Deskripsi singkat --}}
+                                    @if (!empty($s->description))
+                                        <p class="text-muted mb-0 truncate-2">{{ $s->description }}</p>
+                                    @endif
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
